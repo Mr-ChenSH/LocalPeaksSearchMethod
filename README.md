@@ -1,5 +1,5 @@
 # LocalPeaksSearchMethod
-  **Introduction to the Program --- matlab Version R2011a**
+  **Introduction to the Program --- matlab Version required below R2014a**
 **********************************************************************************
 ## Program: 
   **Local-Peaks Search Method (LPS Method) - Dispersion equation solving method.**
