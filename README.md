@@ -1,4 +1,4 @@
-# LocalPeaksSearchMethod
+#                                   LocalPeaksSearchMethod
   **Introduction to the Program: Matlab Version required below R2014a**
 **********************************************************************************
 ## Program: 
