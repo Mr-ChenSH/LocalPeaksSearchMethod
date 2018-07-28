@@ -90,10 +90,10 @@ Notes: wavenumber k = w/cp+i*ki
   When the program is running, some dialog boxes will pop-up, which is intended to 
   check the roots obtained through observation by yourself. 
 * (1) Choice: to check roots manually?
-    please click 'Yes' or 'No' to determine whether check roots yourself.
-* (2) Check roots: Begin to check roots?
-     'Yes'-check; 'No'-not check; 'Never'-not check any more
-* (3) Is this a root?
+      please click 'Yes' or 'No' to determine whether check roots yourself.
+* (2) Check roots: Begin to check roots? 
+      'Yes'-check; 'No'-not check; 'Never'-not check any more
+* (3) Is this a root? 
      through observation to determine a root or not, press "ctrl+C" to changer the current figure
-          'Yes'-is a root; 'No'-not a root; 'Cancel? not sure
+     'Yes'-is a root; 'No'-not a root; 'Cancel? not sure
 
