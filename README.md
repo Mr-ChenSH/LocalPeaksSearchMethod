@@ -38,30 +38,30 @@ the program, please share wtih the developer, thanks a lot.
 
 ## GUI interface Description
 **1. Problem Selection**
-* (1) Model Selection:
+* (1) Model Selection:     
     (a) PlanarPlate; (b) CylindricalShell
-* (2) BCs:
+* (2) BCs:    
     Va-free or vacuum; So-solid; Fl-fluid
-* (3) Mode:
-    (a) PlanarPlate: S-symmetrical; A-asymmetrical
+* (3) Mode:    
+    (a) PlanarPlate: S-symmetrical; A-asymmetrical    
     (b) CylindricalShell: L-longitudinal; T-tortional; F-flexural
-* (4) ncs:
+* (4) ncs:    
     flexural modal order of cylindrical shells
 	
 **2. Model Size**
-* (1) Plates:
+* (1) Plates:    
     dem-thickness of material 1;    dvm-thickness of material 2
-* (2) Cylindrical Shells
+* (2) Cylindrical Shells:    
     a-inner radius;    b-middle radius;    c-outer radius
 
 **3. Material Parameters**
-* (1) Fluid 1:
+* (1) Fluid 1:    
     row1, c1 - acoustic parameters of fluid 1
-* (2) Material 1: elastic:
+* (2) Material 1: elastic:    
     rowem, Eem0, ytaem, sigmaem - parameters of material 1, elastic default
-* (3) Material 2: viscoelastic:
+* (3) Material 2: viscoelastic:    
     rowvm, Evm0, ytavm, sigmavm - parameters of material 2, viscoelastic default
-* (4) Fluid 2:
+* (4) Fluid 2:    
     row2, c2 - acoustic parameters of fluid 2
 
 **4. Computation Parameters**
@@ -77,9 +77,9 @@ the program, please share wtih the developer, thanks a lot.
 * Notes: wavenumber k = w/cp+i*ki
 
 **5. Inialize & Save**
-* (1) Initialize:
+* (1) Initialize:    
      initialize the parameters using 'Initializer.mat' file saved last time
-* (2) Save:
+* (2) Save:    
      save the parameters set currently to 'Initializer.mat' file
 	 
 **6. Run**
@@ -89,11 +89,11 @@ the program, please share wtih the developer, thanks a lot.
 ## Additional Notes
   When the program is running, some dialog boxes will pop-up, which is intended to 
   check the roots obtained through observation by yourself. 
-* (1) Choice: to check roots manually?
+* (1) Choice: to check roots manually?    
       please click 'Yes' or 'No' to determine whether check roots yourself.
-* (2) Check roots: Begin to check roots? 
+* (2) Check roots: Begin to check roots?     
       'Yes'-check; 'No'-not check; 'Never'-not check any more
-* (3) Is this a root? 
-     through observation to determine a root or not, press "ctrl+C" to changer the current figure
-     'Yes'-is a root; 'No'-not a root; 'Cancel? not sure
+* (3) Is this a root?     
+     through observation to determine a root or not, press "ctrl+C" to changer the current figure    
+          'Yes'-is a root; 'No'-not a root; 'Cancel? not sure
 
