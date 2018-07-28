@@ -65,13 +65,13 @@ the program, please share wtih the developer, thanks a lot.
     row2, c2 - acoustic parameters of fluid 2
 
 **4. Computation Parameters**
-* (1)  Frequency Range: 
+* (1)  Frequency Range:     
      f = [fa:df:fb]
-* (2)  Phase Velocity:
+* (2)  Phase Velocity:    
      cp = [cpa:dcp:cpb]
-* (3)  Attenuation Coefficient
+* (3)  Attenuation Coefficient:    
      ki = [kia:dki:kib]
-* (4)  Control Parameters:
+* (4)  Control Parameters:    
     (a) kur - used to determine a local-peak
     (b) err - roots' precision
 * Notes: wavenumber k = w/cp+i*ki
