@@ -38,48 +38,48 @@ the program, please share wtih the developer, thanks a lot.
 
 ## GUI interface Description
 **1. Problem Selection**
-* (1) Model Selection
-(a) PlanarPlate; (b) CylindricalShell
-* (2) BCs
-Va-free or vacuum; So-solid; Fl-fluid
-* (3) Mode
-(a) PlanarPlate: S-symmetrical; A-asymmetrical
-(b) CylindricalShell: L-longitudinal; T-tortional; F-flexural
-* (4) ncs 
-flexural modal order of cylindrical shells
+* (1) Model Selection:
+    (a) PlanarPlate; (b) CylindricalShell
+* (2) BCs:
+    Va-free or vacuum; So-solid; Fl-fluid
+* (3) Mode:
+    (a) PlanarPlate: S-symmetrical; A-asymmetrical
+    (b) CylindricalShell: L-longitudinal; T-tortional; F-flexural
+* (4) ncs:
+    flexural modal order of cylindrical shells
 	
 **2. Model Size**
-* (1) Plates
-dem-thickness of material 1; dvm-thickness of material 2
+* (1) Plates:
+    dem-thickness of material 1;    dvm-thickness of material 2
 * (2) Cylindrical Shells
-a-inner radius; b-middle radius; c-outer radius
+    a-inner radius;    b-middle radius;    c-outer radius
 
 **3. Material Parameters**
-* (1) Fluid 1
-row1, c1 - acoustic parameters of fluid 1
-* (2) Material 1: elastic
-rowem, Eem0, ytaem, sigmaem - parameters of material 1, elastic default
-* (3) Material 2: viscoelastic
-rowvm, Evm0, ytavm, sigmavm - parameters of material 2, viscoelastic default
-* (4) Fluid 2
-row2, c2 - acoustic parameters of fluid 2
+* (1) Fluid 1:
+    row1, c1 - acoustic parameters of fluid 1
+* (2) Material 1: elastic:
+    rowem, Eem0, ytaem, sigmaem - parameters of material 1, elastic default
+* (3) Material 2: viscoelastic:
+    rowvm, Evm0, ytavm, sigmavm - parameters of material 2, viscoelastic default
+* (4) Fluid 2:
+    row2, c2 - acoustic parameters of fluid 2
 
 **4. Computation Parameters**
-* (1)  Frequency Range 
+* (1)  Frequency Range: 
      f = [fa:df:fb]
-* (2)  Phase Velocity
+* (2)  Phase Velocity:
      cp = [cpa:dcp:cpb]
 * (3)  Attenuation Coefficient
      ki = [kia:dki:kib]
-* (4)  Control Parameters
+* (4)  Control Parameters:
     (a) kur - used to determine a local-peak
     (b) err - roots' precision
-Notes: wavenumber k = w/cp+i*ki
+* Notes: wavenumber k = w/cp+i*ki
 
 **5. Inialize & Save**
-* (1) Initialize
+* (1) Initialize:
      initialize the parameters using 'Initializer.mat' file saved last time
-* (2) Save
+* (2) Save:
      save the parameters set currently to 'Initializer.mat' file
 	 
 **6. Run**
