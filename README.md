@@ -8,8 +8,8 @@
 
 ## Developers: Jiayuan Gong,
 * (1) Orginally programmed at Harbin Engineering University(HEU), hrbin, PRC, 2009;
-* (2)revised at Insititute of Acoustics, Chinese Academy of Sciences(IACAS),QingDao, PRC, 2011-2016
-* (3) revised at Hubei University of Automotive Technology(HUAT), Shiyan, PRC, 2018
+* (2) Revised at Insititute of Acoustics, Chinese Academy of Sciences(IACAS),QingDao, PRC, 2011-2016
+* (3) Modified at Hubei University of Automotive Technology(HUAT), Shiyan, PRC, 2018
 
 ## Copyright(c) 2009-2018, Jiayuan Gong, at HEU, IACAS and HUAT.
 
