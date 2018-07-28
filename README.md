@@ -1,8 +1,9 @@
 # LocalPeaksSearchMethod
                Introduction to the Program --- matlab Version R2011a
 **********************************************************************************
-## Program: Local-Peaks Search Method (LPS Method) - Dispersion equation solving method.
-## for the following Models:
+## Program: 
+** Local-Peaks Search Method (LPS Method) - Dispersion equation solving method.
+for the following Models: **
 * (1) Free or Fluid-loaded, Single- or Double-Layer, Elastic or Viscoelastic Plates;
 * (2) Free or Fluid-loaded, Single- or Double-Layer, Elastic or Viscoelastic Cylindrical Shells.
 
