@@ -37,7 +37,7 @@ the program, please share wtih the developer, thanks a lot.
 * -----------------------------------------------------------------
 
 ## GUI interface Description
-##  1 Problem Selection
+**1. Problem Selection**
 * (1) Model Selection
 (a) PlanarPlate; (b) CylindricalShell
 * (2) BCs
@@ -48,13 +48,13 @@ Va-free or vacuum; So-solid; Fl-fluid
 * (4) ncs 
 flexural modal order of cylindrical shells
 	
-## 2 Model Size
+**2. Model Size**
 * (1) Plates
 dem-thickness of material 1; dvm-thickness of material 2
 * (2) Cylindrical Shells
 a-inner radius; b-middle radius; c-outer radius
 
-## 3 Material Parameters
+**3. Material Parameters**
 * (1) Fluid 1
 row1, c1 - acoustic parameters of fluid 1
 * (2) Material 1: elastic
@@ -64,7 +64,7 @@ rowvm, Evm0, ytavm, sigmavm - parameters of material 2, viscoelastic default
 * (4) Fluid 2
 row2, c2 - acoustic parameters of fluid 2
 
-## 4 Computation Parameters
+**4. Computation Parameters**
 * (1)  Frequency Range 
      f = [fa:df:fb]
 * (2)  Phase Velocity
@@ -76,13 +76,13 @@ row2, c2 - acoustic parameters of fluid 2
     (b) err - roots' precision
 Notes: wavenumber k = w/cp+i*ki
 
-##  5 Inialize & Save
+**5. Inialize & Save**
 * (1) Initialize
      initialize the parameters using 'Initializer.mat' file saved last time
 * (2) Save
      save the parameters set currently to 'Initializer.mat' file
 	 
-## 6 Run
+**6. Run**
   run the program
   
 
