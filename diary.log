@@ -1,0 +1,122 @@
+Initializing...
+toc: 2.0701s
+*******************************************************
+f = 10000Hz
+¡¾Global Domain Search¡¿
+=¡·Function Discretizing...
+toc: 9.8281s
+=¡·Local-Peaks Searching...
+toc: 11.3924s
+=¡·Local-Roots Computing...
+>>cp = 3280.5666;  ki = 8.4857e-17
+>>cp = 5467.1554;  ki = -6.8051e-16
+toc: 11.927s
+----------------------------------------
+¡¾Local Domain Search¡¿
+>>Singular Wavenumber: cp0 = 5934.7683; ki0 = 0
+=¡·Function Discretizing...
+toc: 12.2708s
+=¡·Local-Peaks Searching...
+toc: 12.3314s
+=¡·Local-Roots Computing...
+>>No Roots Find!
+toc: 12.3333s
+>>Singular Wavenumber: cp0 = 3280.5666; ki0 = 0
+=¡·Function Discretizing...
+toc: 12.5935s
+=¡·Local-Peaks Searching...
+toc: 12.6584s
+=¡·Local-Roots Computing...
+>>cp = 3280.5666;  ki = -9.9906e-17
+toc: 12.7041s
+>>Singular Wavenumber: cp0 = 3032.0863; ki0 = 0
+=¡·Function Discretizing...
+toc: 12.9472s
+=¡·Local-Peaks Searching...
+toc: 13.0082s
+=¡·Local-Roots Computing...
+>>No Roots Find!
+toc: 13.0101s
+----------------------------------------
+¡¾Roots Merge¡¿
+Raw Results: 
+>>cp = 3280.5666  ki = 8.4857e-17
+>>cp = 3280.5666  ki = -9.9906e-17
+>>cp = 5467.1554  ki = -6.8051e-16
+toc: 13.0336s
+*******************************************************
+f = 20000Hz
+¡¾Global Domain Search¡¿
+=¡·Function Discretizing...
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DispFunction>DispFunction_PP', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m', 25)" style="font-weight:bold">DispFunction>DispFunction_PP</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m',25,0)">line 25</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DispFunction', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m', 6)" style="font-weight:bold">DispFunction</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m',6,0)">line 6</a>)
+        fdisp = DispFunction_PP(f, MPM, k);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DispFunDiscretize', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunDiscretize.m', 12)" style="font-weight:bold">DispFunDiscretize</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunDiscretize.m',12,0)">line 12</a>)
+        DISP(ii,jj) = DispFunction(f, MPM, k);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GlobalDomainSearch', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GlobalDomainSearch.m', 8)" style="font-weight:bold">GlobalDomainSearch</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GlobalDomainSearch.m',8,0)">line 8</a>)
+[MCP, MKI, DISP] = DispFunDiscretize(f, MPM, SPM);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GUIMain>Run_Callback', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m', 255)" style="font-weight:bold">GUIMain>Run_Callback</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m',255,0)">line 255</a>)
+    [cp1, ki1]= GlobalDomainSearch(f, MPM, SPM, kur, err);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\Program Files\MATLAB\R2018a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2018a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">line 95</a>)
+        feval(varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GUIMain', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m', 42)" style="font-weight:bold">GUIMain</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m',42,0)">line 42</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+In
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)GUIMain(''Run_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)GUIMain('Run_Callback',hObject,eventdata,guidata(hObject))</a>} 
+Interrupt while evaluating UIControl Callback.
+
+Initializing...
+toc: 1.995s
+*******************************************************
+f = 10000Hz
+¡¾Global Domain Search¡¿
+=¡·Function Discretizing...
+toc: 8.9934s
+=¡·Local-Peaks Searching...
+toc: 10.5202s
+=¡·Local-Roots Computing...
+>>cp = 3280.5666;  ki = 8.4857e-17
+>>cp = 5467.1554;  ki = -6.8051e-16
+toc: 10.9693s
+----------------------------------------
+¡¾Local Domain Search¡¿
+>>Singular Wavenumber: cp0 = 5934.7683; ki0 = 0
+=¡·Function Discretizing...
+toc: 11.2107s
+=¡·Local-Peaks Searching...
+toc: 11.2698s
+=¡·Local-Roots Computing...
+>>No Roots Find!
+toc: 11.2753s
+>>Singular Wavenumber: cp0 = 3280.5666; ki0 = 0
+=¡·Function Discretizing...
+toc: 11.5078s
+=¡·Local-Peaks Searching...
+toc: 11.5748s
+=¡·Local-Roots Computing...
+>>cp = 3280.5666;  ki = -9.9906e-17
+toc: 11.6343s
+>>Singular Wavenumber: cp0 = 3032.0863; ki0 = 0
+=¡·Function Discretizing...
+toc: 11.8759s
+=¡·Local-Peaks Searching...
+toc: 11.943s
+=¡·Local-Roots Computing...
+>>No Roots Find!
+toc: 11.9458s
+----------------------------------------
+¡¾Roots Merge¡¿
+Raw Results: 
+>>cp = 3280.5666  ki = 8.4857e-17
+>>cp = 3280.5666  ki = -9.9906e-17
+>>cp = 5467.1554  ki = -6.8051e-16
+toc: 11.9582s
+*******************************************************
