@@ -120,3 +120,34 @@ Raw Results:
 >>cp = 5467.1554  ki = -6.8051e-16
 toc: 11.9582s
 *******************************************************
+f = 20000Hz
+¡¾Global Domain Search¡¿
+=¡·Function Discretizing...
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DispFunction>DispFunction_PP', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m', 17)" style="font-weight:bold">DispFunction>DispFunction_PP</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m',17,0)">line 17</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DispFunction', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m', 6)" style="font-weight:bold">DispFunction</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunction.m',6,0)">line 6</a>)
+        fdisp = DispFunction_PP(f, MPM, k);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DispFunDiscretize', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunDiscretize.m', 12)" style="font-weight:bold">DispFunDiscretize</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\DispFunDiscretize.m',12,0)">line 12</a>)
+        DISP(ii,jj) = DispFunction(f, MPM, k);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GlobalDomainSearch', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GlobalDomainSearch.m', 8)" style="font-weight:bold">GlobalDomainSearch</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GlobalDomainSearch.m',8,0)">line 8</a>)
+[MCP, MKI, DISP] = DispFunDiscretize(f, MPM, SPM);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GUIMain>Run_Callback', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m', 255)" style="font-weight:bold">GUIMain>Run_Callback</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m',255,0)">line 255</a>)
+    [cp1, ki1]= GlobalDomainSearch(f, MPM, SPM, kur, err);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\Program Files\MATLAB\R2018a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2018a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">line 95</a>)
+        feval(varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GUIMain', 'E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m', 42)" style="font-weight:bold">GUIMain</a> (<a href="matlab: opentoline('E:\WorkSpace\GitHub\LocalPeaksSearchMethod\GUIMain.m',42,0)">line 42</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+In
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)GUIMain(''Run_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)GUIMain('Run_Callback',hObject,eventdata,guidata(hObject))</a>} 
+Interrupt while evaluating UIControl Callback.
+
+clear
+clc
+exit
