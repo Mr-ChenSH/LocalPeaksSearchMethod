@@ -16,7 +16,7 @@
 
 ## References: 
 Jiayuan Gong. Study on Leaky Lamb Waves Propagating in Elastic Plates
-and Cylindrical Shells Coated with a Viscoelastic Damping Material in Water. 
+and Cylindrical Shells Coated with a Viscoelastic Damping Material in Water(水中覆阻尼层弹性板及柱壳中的漏Lamb波研究). 
 Graduation Thesis of Master's Degree, Harbin Engineering University, 2010. (in Chinese)
 
 ## Notes:  
