@@ -23,8 +23,6 @@ Graduation Thesis of Master's Degree, Harbin Engineering University, 2010. (in C
 The Code for cylindrical shells has some bugs. Anyone who optimizes
 the program, please share wtih the developer, thanks a lot.
 
-## Email: rorypeck@126.com
-
  ## Model Scheme
 * -----------------------------------------------------------------
            Fluid 1 [Fl, Va]: row1,c1
